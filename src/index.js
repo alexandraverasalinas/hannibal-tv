@@ -1,4 +1,10 @@
-//step 1: get DOM
+
+
+function learnMore() {
+    alert('Button clicked!');
+  }
+
+
 let nextDom = document.getElementById('next');
 let prevDom = document.getElementById('prev');
 
@@ -10,7 +16,7 @@ let timeDom = document.querySelector('.carousel .time');
 
 thumbnailBorderDom.appendChild(thumbnailItemsDom[0]);
 let timeRunning = 3000;
-let timeAutoNext = 7000;
+let timeAutoNext = 7500;
 
 nextDom.onclick = function(){
     showSlider('next');    

@@ -5,7 +5,7 @@ body {
     background-color: #000;
     color: #eee;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 a {
@@ -26,8 +26,31 @@ header {
 
 header a {
     color: #eee;
-    margin-right: 40px;
+    margin-right: 50px;
 }
+
+h1 {
+    margin-top: 900;
+    font-size: 80px;
+    text-align:inherit;
+    color: #c11b26;
+}
+
+.hannibal {
+    text-align: left;
+    font-size: 20px;
+    margin-top: -700;
+}
+
+.hannibal strong {
+    color: #c11b26;
+    font-size: 26px;
+}
+
+.image {
+    float: right;
+    width: 40%;
+  }
 
 footer {
   margin: 0;
@@ -35,7 +58,7 @@ footer {
   color: #eee;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
-  margin-top: 50;
+  margin-top: 90;
   text-align: center;
 }
 
@@ -77,13 +100,13 @@ footer {
 
 
 .carousel .list .item .title {
-    font-size: 80px;
+    font-size: 95px;
     font-weight: bold;
     line-height: 1.3em;
 }
 
 .carousel .list .item .topic {
-    font-size: 50px;
+    font-size: 65px;
     font-weight: bold;
     line-height: 1.3em;
 }

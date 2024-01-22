@@ -1,7 +1,18 @@
 
 
 function learnMore() {
-    alert('Button clicked!');
+    let firstName = prompt("What's your first name?");
+    let fullInfo = "Thank you " + firstName + ", stay tuned for exciting updates of Hannibal." + " We'll be in touch! 😄" ;
+    let Email = prompt("What's your email? 📧");
+    let age = prompt("How old are you?");
+if (age < 17) {
+  alert("Sorry, you can't apply 😥");
+
+} else {
+  alert(fullInfo);
+}    
+
+
   }
 
 

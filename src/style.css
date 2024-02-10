@@ -6,6 +6,7 @@ body {
     color: #eee;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
+    
 }
 
 a {
@@ -37,14 +38,22 @@ h1 {
     text-shadow: 0px 2px 15px rgb(169, 17, 27);
     
     color: #c11b26;
-    transition-duration: 0.2s;
+    transition-duration: 0.4s;
 }
 
  h1:hover {
-    font-size: 96px;
+    font-size: 95px;
     font-weight: bolder;
     text-shadow: 1px 0px 12px rgba(210, 20, 32, 0.9);
-color: #d21420;
+    color: #d21420;
+}
+
+.hannibal_2 {
+    line-height: 0.75em;
+}
+
+.hannibal_3 {
+    line-height: 0.75em;
 }
 
 .wiki {
@@ -58,7 +67,7 @@ color: #d21420;
     font-weight: bolder;
     font-size: 22px;
     text-shadow: 0px 2px 15px rgba(225, 29, 42, 0.6);
-    color: #c11b26;
+    color: #f2323f;
 
 }
 
@@ -154,6 +163,12 @@ h2 {
 
 button:hover {
     cursor: pointer;
+  }
+
+  .twitter-tweet {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 

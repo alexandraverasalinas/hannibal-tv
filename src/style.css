@@ -1,4 +1,10 @@
-
+h12 {
+    margin-top: 50px;
+    color: #c11b26;
+    font-size: 30px;
+    text-align: center;
+    
+}
 
 body {
     margin: 0;
@@ -125,6 +131,118 @@ h2 {
     color: #c11b26;
     font-size: 30px;
 }
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.cast {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1100px;
+}
+
+
+.cast .card {
+    position: relative;
+    width: 320px;
+    height: 320px;
+    margin:15px;
+    overflow: hidden;
+}
+
+.cast .card .pretty
+.cast .card .contentCard 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cast .card .pretty img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cast .card .contentCard::before
+    {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: white;
+        transform: scaleX(0);
+        transition: transform 0.5s ease-in-out;
+        transform-origin: right;
+    }
+
+.cast .card:hover .contentCard::before
+    {
+        transform: scaleX(1);
+        transition: transform 0.5s ease-in-out;
+        transform-origin: left;
+    }    
+
+    .cast .card .contentCard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cast .card .contentCard .content {
+        position: relative;
+        padding: 30px;
+        z-index: 1;
+        transition: 0.5s;
+        transform: translate(-300px);
+        transition-delay: 0%
+    }
+
+    .cast .card:hover .contentCard .content {
+        transform: translateX(0px);
+        transition-delay: 0.1s;
+    }
+
+    .cast .card .contentCard .content h8 {
+        font-weight: 4000;
+        font-size: 1.3em;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #0f2e33;
+    }
+
+    .cast .card .contentCard .content p {
+        font-size: 16px;
+        line-height: 1.4em;
+        font-weight: 300;
+        color: rgb(62, 62, 62);
+    }
 
 .learnMore {
     

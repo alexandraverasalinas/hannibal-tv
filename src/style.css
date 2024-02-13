@@ -81,34 +81,14 @@ h1 {
 
 .image {
     position: absolute;
+    
     right: 60px;
-    top: 25px; 
+    top: 115px; 
     float: right;
-    width: 38%;
+    width: 58%;
     border-radius: 8px;
    
-    filter:  brightness(110%) saturate(108%) sepia(2%);
-
-    box-shadow: 0px 0px 36px 11px rgba(141,15,15,0.21);
--webkit-box-shadow: 0px 0px 36px 11px rgba(141,15,15,0.21);
--moz-box-shadow: 0px 0px 36px 11px rgba(141,15,15,0.21);
-
-  }
-
-
-  .image2 {
-    position: absolute;
-    right: 60px;
-    top: 410px; 
-    float: right;
-    width: 38%;
-    border-radius: 8px;
-
-    filter:  brightness(110%) saturate(108%) sepia(2%);
-   
-    box-shadow: 0px 0px 36px 11px rgba(141,15,15,0.21);
--webkit-box-shadow: 0px 0px 36px 11px rgba(141,15,15,0.21);
--moz-box-shadow: 0px 0px 36px 11px rgba(141,15,15,0.21);
+    filter:  brightness(114%) contrast(113%) saturate(97%);
   }
 
   .hannibal {
@@ -161,10 +141,8 @@ body {
 
 
 .cast {
-    justify-content: center;
-    position: relative;
+    margin:auto;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     max-width: 1100px;
